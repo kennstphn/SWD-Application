@@ -44,6 +44,7 @@ Settings should never be passed in via a single dimensional array, as this break
 ##Application class __constructors
 
 Each Application constructor should include the following code to handle it's configuration options
+
 `public function __construct($configOptionList){`
 
     $thisNameSpace = get_class($this);
